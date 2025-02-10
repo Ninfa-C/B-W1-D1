@@ -27,7 +27,7 @@ namespace ConsoleApp2
 
         public void Show()
         {
-            Console.WriteLine("Auto: Marca:" + Marca + " Modello:" + Modello + " Anno:" + Anno + " Color:" + Color);
+            Console.WriteLine("Marca:" + Marca + " Modello:" + Modello + " Anno:" + Anno + " Color:" + Color);
         }
     }
 }

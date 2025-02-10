@@ -8,10 +8,11 @@ namespace ConsoleApp2
 {
     internal class Animale
     {
-        public string Breed { get; set; }
-        public string Specie { get; set; }
+        public string? Breed { get; set; }
+        public string? Specie { get; set; }
         public int Weight { get; set; }
-        public string Diet { get; set; }
+        public string? Diet { get; set; }
+
 
 
 
