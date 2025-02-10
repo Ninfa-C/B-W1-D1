@@ -25,9 +25,13 @@ namespace ConsoleApp2
 
         //Metodo di console
 
+        //public void Show()
+        //{
+        //    Console.WriteLine("Marca:" + Marca + " Modello:" + Modello + " Anno:" + Anno + " Color:" + Color);
+        //}
         public void Show()
         {
-            Console.WriteLine("Marca:" + Marca + " Modello:" + Modello + " Anno:" + Anno + " Color:" + Color);
+            Console.WriteLine($"Marca: {Marca} {Modello}, Anno: {Anno}, Colore: {Color}");
         }
     }
 }

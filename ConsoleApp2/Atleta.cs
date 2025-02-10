@@ -20,7 +20,7 @@ namespace ConsoleApp2
         //console  
         public void Show()
         {
-            Console.WriteLine(Name + " " + Surname + " " + Age + " anni, " + Sport);
+            Console.WriteLine($"{Name} {Surname} , {Age} anni, {Sport}.");
         }
 
 
