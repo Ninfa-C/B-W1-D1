@@ -6,19 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    public class Atleta
+    internal class Dipendente
     {
-        //private string name;
-        //private string surname;
-        //private int age;
-
         public string Name { get; set; }
         public string Surname { get; set; }
         public int Age { get; set; }
-        public string Sport { get; set; }
-
-
-
-
+        public string Role { get; set; }
     }
 }
